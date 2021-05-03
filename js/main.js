@@ -97,6 +97,7 @@ const findEmptyPos = () => {
     }
 }
 
+//check if the move is within the board game
 const checkInvalid = (x, y, i, j) =>
 		(y+i < 0 || y+i > game.length-1 || x+j < 0 || x+j > game[0].length-1 || i+j === 0 || i === j)
 
